@@ -70,5 +70,6 @@ Veja [Configuration Reference](https://cli.vuejs.org/config/).
 6. O que são componentes
 7. Como criar componentes
 8. Reatividade
-9. Data binding (One Way)
+9. Data binding (One Way ":")
 10. Two way data binding com V-model
+11. Props (maneira de passar dados para um componente)

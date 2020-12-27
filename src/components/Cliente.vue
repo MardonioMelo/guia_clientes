@@ -1,30 +1,35 @@
 <template>
-    <div id="cliente"> 
-        <input type="text" :value="nome">
-        <hr>
-        <input type="text" :value="desc">
-        <h2 id="cliente-nome">{{ nome }}</h2>
-        <p>Descrição do cliente: {{ desc }}</p>      
+    <div id="cliente">        
+        <h4>Nome: {{cliente.nome}}</h4> 
+        <hr>   
+        <p>Email: {{cliente.email}}</p>
+        <p>Idade: {{cliente.idade}}</p>      
     </div>  
 </template>
 
 <script>
 export default {
     data(){
-        return {
-            nome: "Mardônio Melo 123 ",
-            numero: 0,
-            email: "",
-            idade: 0,
-            desc: "Lorem ipsum 123"
+        return {          
+                   
         }
+    },
+    props: {
+        nome: String,
+        email: String,      
+        idade: Number,    
+        cliente: Object    
     }
 }
 </script>
 
 <style scoped>
     #cliente{
-     max-width: 600px;
-     height: 120px;
+        background-color: bisque;
+        max-width: 600px;
+        height: 180px;
+        padding: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 4%;
     }   
 </style>
