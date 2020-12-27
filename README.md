@@ -2,7 +2,7 @@
 
 Projeto criado no curso de VueJS seguindo a [playlist das aulas ](https://youtube.com/playlist?list=PLJ_KhUnlXUPteacVhunyK5M8SKIadeED0) no YouTube.
 
-## Video #3 - Ambiente de desenvolvimento
+## Ambiente de desenvolvimento
 - Instalar node.js e NPM ou Yarn
 - Instalar VsCode
 - Instalar o Vue CLI 
@@ -14,7 +14,7 @@ ou
 ```
 $ yarn global add @vue/cli
 ```
-## Video #4 - Como criar um projeto
+## Como criar um projeto
 
 Entre no local onde deseja criar o projeto e execute o comando
 ```
@@ -58,3 +58,17 @@ yarn lint
 
 ### Personalize a configuração
 Veja [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+---
+## Lista completa das aulas:
+1. Introdução
+2. Relembrando o DOM
+3. Ambiente de desenvolvimento
+4. Como criar um projeto
+5. Estrutura de um projeto Vuejs
+6. O que são componentes
+7. Como criar componentes
+8. Reatividade
+9. Data binding (One Way)
+10. Two way data binding com V-model
