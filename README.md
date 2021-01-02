@@ -74,3 +74,4 @@ Veja [Configuration Reference](https://cli.vuejs.org/config/).
 10. Two way data binding com V-model
 11. Props (maneira de passar dados para um componente)
 12. V-if, V-else, V-else-if e V-show
+13. Classes condicionais
