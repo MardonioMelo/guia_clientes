@@ -1,9 +1,11 @@
 <template>
   <div id="app">   
     <input type="text" v-model="clienteMardonio.nome"> 
-     <input type="text" v-model="clienteMardonio.idade"> 
-    <Cliente :cliente="clienteMardonio" />
-   
+    <input type="text" v-model="clienteMardonio.idade">   
+    <Cliente :cliente="clienteMardonio" :showIdade="true"/>
+    <Cliente :cliente="clienteMardonio" :showIdade="true"/>
+    <Cliente :cliente="clienteMardonio" :showIdade="false"/>
+    <Cliente :cliente="clienteMardonio" :showIdade="false"/>   
   </div>
 </template>
 
