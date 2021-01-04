@@ -78,4 +78,6 @@ Veja [Configuration Reference](https://cli.vuejs.org/config/).
 14. V-for
 15. Eventos
 16. Formulários
+17. Validação
+18. Emissão de eventos
 
