@@ -80,4 +80,5 @@ Veja [Configuration Reference](https://cli.vuejs.org/config/).
 16. Formulários
 17. Validação
 18. Emissão de eventos
-
+19. Filtros (Foi removido na versão >= 3.0.0)
+20. Computed properties
