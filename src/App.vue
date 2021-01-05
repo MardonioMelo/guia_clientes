@@ -10,7 +10,7 @@
     <input type="number" placeholder="Idade" v-model="idadeField" /> <br />
     <button @click="createUser">Cadastro</button>
     <hr />
-    <div v-for="(cliente, index) in clientes" :key="cliente.id">
+    <div v-for="(cliente, index) in orderClientes" :key="cliente.id">
       <h4>Usuário: #{{ index + 1 }}</h4>
       <Cliente :cliente="cliente" @meDelete="deleteUser($event)" />
     </div>
@@ -18,6 +18,7 @@
 </template>
 
 <script>
+import _ from 'lodash';
 import Cliente from "./components/Cliente.vue";
 //import Produto from './components/Produto.vue'
 
@@ -38,8 +39,8 @@ export default {
         },
         {
           id: 2,
-          nome: "Mardonio2 de melo",
-          email: "mardonio2@gmail.com",
+          nome: "Andre de melo",
+          email: "andre@gmail.com",
           idade: 50,
         },
       ],
@@ -86,6 +87,11 @@ export default {
       this.clientes = novoArray;
     },
   },
+  computed: {
+    orderClientes(){
+      return _.orderBy(this.clientes, ['nome'], ['asc']);
+    }
+  }
 };
 </script>
 
