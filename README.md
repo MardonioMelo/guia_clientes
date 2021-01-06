@@ -82,3 +82,5 @@ Veja [Configuration Reference](https://cli.vuejs.org/config/).
 18. Emissão de eventos
 19. Filtros (Foi removido na versão >= 3.0.0)
 20. Computed properties
+21. Como instalar bibliotecas externas no Vuejs (ex.: lodash)
+22. Frameworks CSS
